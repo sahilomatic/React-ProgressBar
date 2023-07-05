@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-container {
+  position: relative;
+  height: 30px;
+  background-color: grey;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.progressFill {
+  position: absolute;
+  background-color: green;
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
